@@ -140,7 +140,7 @@ public Action SendTeleportMenu(int client)
 	
 }
 
-public int  TeleportMenuHandler(Menu menu, MenuAction action, int param1, int param2)
+public int TeleportMenuHandler(Menu menu, MenuAction action, int param1, int param2)
 {
 	if(action == MenuAction_Select)
 	{

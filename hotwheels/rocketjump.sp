@@ -43,7 +43,7 @@ public Action OnPlayerShot(Event event, const char[] name, bool dontbroadcast)
 	}
 }
 
-public void FindWall(int client)
+void FindWall(int client)
 {
 	float EyePos[3];
 	float EyeAngles[3];
@@ -83,7 +83,7 @@ public void Test(int client, float fwd[3])
 }
 */
 
-public void TryLaunchPlayer(int client, float distance, float PlayerPosition[3], float ImpactLocation[3], float fwd[3])
+void TryLaunchPlayer(int client, float distance, float PlayerPosition[3], float ImpactLocation[3], float fwd[3])
 {
 	float vec[3];
 	MakeVectorFromPoints(PlayerPosition, ImpactLocation, vec);
